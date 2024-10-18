@@ -1,0 +1,58 @@
+.card {
+  width: fit-content;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  backdrop-filter: blur(10px);
+  background-color: #ffffff11;
+}
+
+.main_data_container h1, .main_data_container p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.tittleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 1rem;
+  margin: 0 auto 1rem;
+}
+
+.tittleContainer h2 {
+  font-size: 38px;
+}
+
+.city_name {
+  font-size: 3rem;
+}
+.description {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin: 0.8rem auto 0;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.5rem;
+  background-color: #ffffff5b;
+}
+
+.hours_container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem 8rem;
+  padding: 2rem 8rem;
+}
+
+.sunrise, .sunset {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 5px 5px 10px #0f131a28;
+}
+
+.sunrise {
+  background-image: linear-gradient(140deg, #fff4cf 0%, #3ec7f1 70%);
+}
+.sunset {
+  color: #ffffff;
+  background-image: linear-gradient(-140deg, #ce6f53 20%, #3b3c9c 90%);
+}
