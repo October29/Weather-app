@@ -3,7 +3,7 @@ import style from "./button.module.css";
 const Button = ({textButton}) => {
 
   return(
-    <button>{textButton}</button>
+    <button className={style.button_style} >{textButton}</button>
   );
 };
 

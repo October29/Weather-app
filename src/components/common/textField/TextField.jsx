@@ -10,7 +10,7 @@ const TextField = () => {
   }
   return(
     <>
-    <input
+    <input className={style.input_style}
     type="text"
     value={searchQuery}
     placeholder="Ingrese ciudad"

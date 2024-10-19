@@ -8,3 +8,10 @@
   backdrop-filter: blur(10px);
   background-color: #ffffff1f;
 }
+
+@media screen and (max-width: 430px) {
+
+  .form_data {
+    padding: 1rem 1.5rem;
+  }
+}

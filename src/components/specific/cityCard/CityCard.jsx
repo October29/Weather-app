@@ -29,7 +29,7 @@ const CityCard = () => {
   return (
     <div className={style.card}>
       {weatherData ? (
-        <div>
+        <div className={style.card_content}>
           <div className={style.main_data_container}>
             <div className={style.tittleContainer}>
               <h1 className={style.city_name} >{weatherData.name}</h1>
@@ -38,7 +38,7 @@ const CityCard = () => {
             <p>{weatherData.main.temp} °C</p>
             <div className={style.description}>
               <p>{capitalizeFirstLetter(weatherData.weather[0].description)} </p>
-              <img src={iconGenerator(weatherData.weather[0].icon)} alt={weatherData.weather[0].description} /> 
+              <img className={style.icon} src={iconGenerator(weatherData.weather[0].icon)} alt={weatherData.weather[0].description} /> 
             </div>
           </div>
           <div className={style.hours_container}>
